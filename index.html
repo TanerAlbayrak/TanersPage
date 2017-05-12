@@ -1,31 +1,43 @@
-CTYPE html>
-<!--
-Taner Albayrak
-Copyright @ 2015
-Taner_Albayrak@student.uml.edu
-UMASS Lowell 91.461 GUI Programming I
-9/9/15
-This is an introductory page to 91.461 with a basic layout for now, but there will be more to come.
--->
+<!DOCTYPE html>
 <html>
-    <head>
-            <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <title>Westnet - Distributor or medical supplies</title>
 
-	            <title>Taner's Site</title>
-		            <meta charset="UTF-8">
-			            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-				        </head>
-					    <body>
-					            
-						            <ul>               
-							                        <li>Home</li>
-										                    <li>Contact</li>
-												                        <li>About</li>
-															        </ul>
-																            <div><b>Welcome to Taner's web page. This is an introduction page for 91.461.  I am a computer science student in my fourth year and hope to design
-																	                        wonderful web pages in the near future.  For now, it is lacking style but soon enough it
-																				                    will have plenty of style and design.  Links will be added to the menu as well.</b></div>
-																						        </body>
-																							</html>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="/css/mystyles.css" rel="stylesheet" media="screen">
+  </head>
+
+  <body id="home">
+
+		<section class="container">
+			<div class="content row">
+          <?php include "/header.php"; ?>
+          
+				<section class="main col col-lg-8">
+          <?php include "/snippet-carousel.php"; ?>
+
+				</section><!-- main -->
+				<section class="sidebar col col-lg-4">
+
+				</section><!-- sidebar -->
+			</div><!-- content -->
+		</section><!-- container -->
+
+    
+    <script src="/js/myscript.js"></script>
+    <script src="/js/bootstrap.js"></script>
+  </body>
+</html>
